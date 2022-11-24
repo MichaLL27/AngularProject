@@ -14,6 +14,9 @@ import { Component } from '@angular/core';
         </li>
       </ul>
     </nav>
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
   `,
 })
 export class AppComponent {
